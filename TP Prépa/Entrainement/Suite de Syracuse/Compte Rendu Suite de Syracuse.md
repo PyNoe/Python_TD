@@ -4,7 +4,7 @@
 $$
 u_n = 1
 $$
-Par exemple, le temps de vol pour c = 14 est égal à 17. Définir une fonction nommée *tempsdevol* prenant un paramètre entier c et retournant le plus petit entier n pour lequel un = 1.
+Par exemple, le temps de vol pour c = 14 est égal à 17. Définir une fonction nommée *tempsdevol* prenant un paramètre entier c et retournant le plus petit entier n pour lequel un = 1.
 
 ```python
 """Définition de la fonction temps de vol"""
@@ -26,8 +26,8 @@ print(tempsdevol(14))
 
 
 
-**Question 2.** De manière tout aussi imagée, on appelle *altitude maximale* de c la valeur maximale de la suite. Par exemple, l’altitude maximale de c = 14 est égale à 52.
-Modifier votre algorithme pour définir une fonction nommée altitude qui calcule cette fois-ci l’altitude maximale pour un entier c donné en paramètre.
+**Question 2.** De manière tout aussi imagée, on appelle *altitude maximale* de c la valeur maximale de la suite. Par exemple, l’altitude maximale de c = 14 est égale à 52.
+Modifier votre algorithme pour définir une fonction nommée altitude qui calcule cette fois-ci l’altitude maximale pour un entier c donné en paramètre.
 
 ```python
 """Définition de la fonction altitude maximale"""
@@ -49,9 +49,9 @@ print(altitudemaximale(14))
 >>> 52.0
 ```
 
-**Question 3.** On appelle *temps d’arrêt* (ou encore *temps de vol en altitude*) le premier entier n (s’il existe) pour lequel un < c.
+**Question 3.** On appelle *temps d’arrêt* (ou encore *temps de vol en altitude*) le premier entier n (s’il existe) pour lequel un < c.
 
-- Écrire une fonction tempsdarret prenant un paramètre entier c et retournant le temps d’arrêt de la suite de Syracuse correspondante.
+- Écrire une fonction tempsdarret prenant un paramètre entier c et retournant le temps d’arrêt de la suite de Syracuse correspondante.
 
 ```python
 def tempdarr(c):        
@@ -66,7 +66,7 @@ def tempdarr(c):
     return n            
 ```
 
-- À l’aide de cette fonction écrire une fonction verification qui prend en argument un paramètre entier m et retourne le temps nécessaire pour vérifier que toutes les valeurs c ∈ ⟦2, m⟧ ont bien un temps d’arrêt fini. Quelle durée d’exécution obtient-t’on pour m = 1 000 000 ?
+- À l’aide de cette fonction écrire une fonction verification qui prend en argument un paramètre entier m et retourne le temps nécessaire pour vérifier que toutes les valeurs c ∈ ⟦2, m⟧ ont bien un temps d’arrêt fini. Quelle durée d’exécution obtient-t’on pour m = 1 000 000 ?
 
 ```python
 def verification(m):                        
@@ -92,8 +92,8 @@ verification(1000000)
 
   Donc le temps d'arrêt vaudra 3.
   
-- Quel est le temps d’arrêt d’un entier pair ? et d’un entier de la forme c = 4n + 1 ? En déduire qu’on peut restreindre la recherche aux entiers de la forme 4n + 3, et modifier en conséquence la fonction précédente. Combien de temps gagne-t’on par rapport à la version précédente pour m = 1 000 000 ?
-  Vérifier ensuite la conjecture pour m = 10 000 000.
+- Quel est le temps d’arrêt d’un entier pair ? et d’un entier de la forme c = 4n + 1 ? En déduire qu’on peut restreindre la recherche aux entiers de la forme 4n + 3, et modifier en conséquence la fonction précédente. Combien de temps gagne-t’on par rapport à la version précédente pour m = 1 000 000 ?
+  Vérifier ensuite la conjecture pour m = 10 000 000.
 
 ```python
 def verification2(m):                                 
@@ -117,7 +117,7 @@ verification2(1000000)
 
 **Question 4.**
 
-a) Déterminer l’altitude maximale que l’on peut atteindre lorsque c ∈ ⟦1, 1 000 000⟧, ainsi que la valeur minimale de c permettant d’obtenir cette altitude.
+a) Déterminer l’altitude maximale que l’on peut atteindre lorsque c ∈ ⟦1, 1 000 000⟧, ainsi que la valeur minimale de c permettant d’obtenir cette altitude.
 
 ```python
 def altitudemax():
@@ -133,7 +133,7 @@ altitudemax()
 Out[14]: (56991483520.0, 704511)
 ```
 
-b) Déterminer le temps de vol en altitude (autrement dit le temps d’arrêt) de durée maximale lorsque c ∈ ⟦1, 1 000 000⟧ ainsi que la valeur de c correspondante.
+b) Déterminer le temps de vol en altitude (autrement dit le temps d’arrêt) de durée maximale lorsque c ∈ ⟦1, 1 000 000⟧ ainsi que la valeur de c correspondante.
 
 ```python
 def tempsvolmax(m):
@@ -156,7 +156,7 @@ Valeur max de 287 atteinte pour 626331
 
 ```
 
-**Question 5** On appelle *vol en altitude de durée record* un vol dont tous les temps d’arrêt de rangs inférieurs sont plus courts. Par exemple, le vol réalisé pour c = 7 est un vol en altitude de durée record (égale à 11) car tous les vols débutant par c = 1, 2, 3, 4, 5, 6 ont des temps d’arrêt de durées inférieures à 11. Déterminez tous les vols en altitude de durée record pour 
+**Question 5** On appelle *vol en altitude de durée record* un vol dont tous les temps d’arrêt de rangs inférieurs sont plus courts. Par exemple, le vol réalisé pour c = 7 est un vol en altitude de durée record (égale à 11) car tous les vols débutant par c = 1, 2, 3, 4, 5, 6 ont des temps d’arrêt de durées inférieures à 11. Déterminez tous les vols en altitude de durée record pour 
 $$
 c \in [1, 1000000]
 $$
@@ -180,7 +180,7 @@ dureerecord(1000000)
 pour c = 999999, record de durée = 524
 ```
 
-**Question 6.** Définir une fonction nommée graphique qui prend un entier c en paramètre et qui construit le graphe de la suite (un)n∈N durant son temps de vol.
+**Question 6.** Définir une fonction nommée graphique qui prend un entier c en paramètre et qui construit le graphe de la suite (un)n∈N durant son temps de vol.
 
 ```python
 def tempsdevol_g(c):
