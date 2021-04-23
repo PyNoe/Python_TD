@@ -108,7 +108,7 @@ def dureerecord(m):
                 u=3*u+1
             if n > d: 
                 d=n
-    print('pour c = {}, record de durée = {}'.format(c, d))
+    print('pour c = {}, record de durée = {}'.format(c, d))
 
 import matplotlib.pyplot as plt
 
