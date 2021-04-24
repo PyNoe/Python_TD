@@ -6,7 +6,7 @@ typora-copy-images-to: ./Figure 2021-04-24 162506.png
 
 ### Exercice 1 (Centrale Sup-Elec)
 
-a) Écrire une fonction Python T(N, p) qui renvoie TN,p suite à la simulation d’un tournoi.
+a) Écrire une fonction Python T(N, p) qui renvoie TN,p suite à la simulation d’un tournoi.
 
 ```python
 from random import *
@@ -27,7 +27,7 @@ def T(N, p):
     return J2  #J2 est aussi le nombre de matchs
 ```
 
-b) Écrire une fonction moyenne(N, p) qui renvoie la moyenne des TN,p obtenus lors de 10**4 tournois.
+b) Écrire une fonction moyenne(N, p) qui renvoie la moyenne des TN,p obtenus lors de 10**4 tournois.
 
 ```python
 def moyenne(N, p):
@@ -49,7 +49,7 @@ moyenne(6, 0.5)
 
 ### Exercice 2 (Centrale Sup-Elec)
 
-a) Rédiger une fonction *experience(n)* qui renvoie la position finale de la balle après une expérience.
+a) Rédiger une fonction *experience(n)* qui renvoie la position finale de la balle après une expérience.
 
 ```python
 from random import *
@@ -62,7 +62,7 @@ def experience(n):
     return case
 ```
 
-b) On réitère N fois cette expérience. Rédiger une fonction *simulation(n, N)* qui renvoie un tableau t à n + 1 cases, t[k] étant égale à la proportion de balle dans la case k en position finale.
+b) On réitère N fois cette expérience. Rédiger une fonction *simulation(n, N)* qui renvoie un tableau t à n + 1 cases, t[k] étant égale à la proportion de balle dans la case k en position finale.
 
 ```python
 def simulation(n, N):
@@ -82,9 +82,9 @@ plt.plot(simulation(20, 10**3))
 plt.show()
 ```
 
-![](/Users/noedaniel/Desktop/Figure 2021-04-24 162506.png)
+![](/Figure_Exo2.png)
 
-d) On suppose désormais que la probabilité que la balle avance d’une case est égale à p ∈]0,1[. Modifier la fonction *experience* et faire quelques essais pour différentes valeurs de p.
+d) On suppose désormais que la probabilité que la balle avance d’une case est égale à p ∈]0,1[. Modifier la fonction *experience* et faire quelques essais pour différentes valeurs de p.
 
 ```python
 def experience2(n, p):
