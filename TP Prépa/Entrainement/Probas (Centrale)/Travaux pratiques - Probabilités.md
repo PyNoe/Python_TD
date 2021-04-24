@@ -1,5 +1,5 @@
 ---
-typora-copy-images-to: ./Figure 2021-04-24 162506.png
+Noé Daniel : 24 avril 2021
 ---
 
 # Travaux pratiques - Probabilités.
@@ -82,7 +82,7 @@ plt.plot(simulation(20, 10**3))
 plt.show()
 ```
 
-![](/Figure_Exo2.png)
+Voir "Figure_Exo2.png"
 
 d) On suppose désormais que la probabilité que la balle avance d’une case est égale à p ∈]0,1[. Modifier la fonction *experience* et faire quelques essais pour différentes valeurs de p.
 
