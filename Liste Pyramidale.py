@@ -33,3 +33,13 @@ for i in range(len(T)):
         if j != len(T[i])-1:
             a += " "
     print(a)
+    
+"""
+On obtient :
+     1
+    1 2
+   1 2 3
+ 1 10 10 1
+1 15 20 25 1
+"""
+       
