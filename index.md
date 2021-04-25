@@ -2,7 +2,7 @@
 
 You'll find in this project all python files that I did for my personal training or for education purpose.<br>
 [My website](http://noe.dnl.free.fr)<br>
-[TP](/TP Prepa/)
+[TP d'entrainement](https://github.com/PyNoe/Python_TD/tree/main/TP%20Pr%C3%A9pa/Entrainement)<br>
 
 ### Markdown
 
