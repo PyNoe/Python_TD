@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome to Noé Pages
 
-You can use the [editor on GitHub](https://github.com/AezioxDev/Python_TD/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You'll find in this project all python files that I did for my personal training or for education purpose.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
