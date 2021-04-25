@@ -1,8 +1,12 @@
 ## Welcome to Noé Pages
 
-You'll find in this project all python files that I did for my personal training or for education purpose.<br>
+You'll find in this project **all python files** that I did for my personal training or for education purpose.<br>
 [My website](http://noe.dnl.free.fr)<br>
-[TP d'entrainement](https://github.com/PyNoe/Python_TD/tree/main/TP%20Pr%C3%A9pa/Entrainement)<br>
+[Training projects](https://github.com/PyNoe/Python_TD/tree/main/TP%20Pr%C3%A9pa/Entrainement)<br>
+
+```
+print("Hello world, my name is Noé")
+```
 
 ### Markdown
 
@@ -28,10 +32,3 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AezioxDev/Python_TD/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
