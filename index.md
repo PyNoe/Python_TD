@@ -11,8 +11,5 @@ print("Hello world, my name is Noé")
 [My website](http://noe.dnl.free.fr)<br>
 [Training projects](https://github.com/PyNoe/Python_TD/tree/main/TP%20Pr%C3%A9pa/Entrainement)<br>
 
-```
-print("Hello world, my name is Noé")
-```
 
 
