@@ -6,7 +6,7 @@ Noé Daniel : 24 avril 2021
 
 ### Exercice 1 (Centrale Sup-Elec)
 
-a) Écrire une fonction Python $T(N, p)$ qui renvoie TN,p suite à la simulation d’un tournoi.
+a) Écrire une fonction Python T(N,p) qui renvoie TN,p suite à la simulation d’un tournoi.
 
 ```python
 from random import *
